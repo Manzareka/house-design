@@ -1,0 +1,215 @@
+<html>
+  <head>
+    <title>House Design Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="background1">
+      <div class="navbar">
+        <img src="img/logo1.png" class="logo" />
+        <ul>
+          <li><a href="#what">RENOVATION</a></li>
+          <li><a href="#what">ARCHITECTURE</a></li>
+          <li><a href="#what">INTERIOR</a></li>
+          <li><a href="#what">FURNITURE</a></li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <h1>DESIGN YOUR HOUSE</h1>
+        <p>
+          Building high-performance and energy-efficient homes since 2022.
+          Create the interior you want. <br />
+          Combine elements, one would call incompatible, into a consistent,
+          well-balanced piece of art.
+        </p>
+        <div>
+          <button type="button" class="show-modal">
+            <span></span>WATCH MORE
+          </button>
+          <button type="button" class="show-modal">
+            <span></span>SUBSCRIBE
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal hidden" id="modalScroll" style="position: fixed; top: 50%; left: 50%;">
+      <button class="close-modal">&times;</button>
+      <p>
+        <section class="section-cta" id="cta">
+          <div class="container">
+            <div class="cta">
+              <div class="cta-text-box">
+                <h2 class="heading-secondary" id="free">
+                  SIGN UP now and get the latest updates:
+                </h2>
+  
+                <form class="cta-form" action="#">
+                  <div>
+                    <label>Full name</label>
+                    <input
+                      type="text"
+                      placeholder="Mikheil Machitidze"
+                      required
+                    />
+                  </div>
+  
+                  <div>
+                    <label>Phone Number</label>
+                    <input
+                      type="phone"
+                      placeholder="+995 591 78 33 11"
+                      required
+                    />
+                  </div>
+  
+                  <div>
+                    <label>Delivery address</label>
+                    <input
+                      type="e-mail"
+                      placeholder="Brtskinvale Str.15, Tbilisi"
+                      required
+                    />
+                  </div>
+  
+                  <div>
+                    <label>Where did you hear from us?</label>
+                    <select required>
+                      <option value="">Please choose one option:</option>
+                      <option value="friends">Friends and family</option>
+                      <option value="youtube">Youtube video</option>
+                      <option value="facebook">Facebook ad</option>
+                      <option value="newspaper">Newspaper</option>
+                      <option value="podcast">Podcast</option>
+                    </select>
+                  </div>
+  
+                  <button class="btn btn--form order-now">ORDER NOW</button>
+                </form>
+              </div>
+            
+            </div>
+          </div>
+        </section>
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <content>
+      <div class="background2">
+        <h1 class="intro" id="what">WHAT WE OFFER</h1>
+        <div class="flex-4-cols">
+          <div class="services">
+            <h2><a href="#">RENOVATION</a></h2>
+            <p>
+              Interior designer, project manager, master team, German certified
+              materials. The work is completed to the highest standards,
+              according to a predetermined plan.
+            </p>
+          </div>
+          <div class="services">
+            <h2><a href="#">ARCHITECTURE</a></h2>
+            <p>
+              Create your desired architectural project. Full architectural
+              service: topography, geological project, engineering drawings,
+              visualization of the house and agreement with the local
+              municipality.
+            </p>
+          </div>
+          <div class="services">
+            <h2><a href="#">INTERIOR </a></h2>
+            <p>
+              Create the interior you want. combine elements, one would call
+              incompatible, into a consistent, well-balanced piece of art.
+            </p>
+          </div>
+          <div class="services">
+            <h2><a href="#">FURNITURE </a></h2>
+            <p>
+              Choose the desired item from our 2022/2023 furniture collection or
+              order an item that will be created exclusively for you and placed
+              in your interior. Choose any type of furniture to design your
+              house.
+            </p>
+          </div>
+        </div>
+        <div class="architecture-img">
+          <img
+            src="img/architecture.jpg"
+            alt="architecture"
+            height="50%"
+            width="50%"
+            class="architecture"
+          />
+        </div>
+      </div>
+    </content>
+
+    <section class="" <section class="projects">
+      <div class="background3">
+        <h1 class="projects">OUR PROJECTS</h1>
+        <div class="flex-2-2-cols">
+          <img
+            src="img/img1.jpg"
+            alt="house design"
+            height="40%"
+            width="40%"
+            class="design-img1"
+          />
+          <img
+            src="img/img2.jpg"
+            alt="house design"
+            height="40%"
+            width="40%"
+            class="design-img2"
+          />
+          <img
+            src="img/img3.jpg"
+            alt="house design"
+            height="40%"
+            width="40%"
+            class="design-img3"
+          />
+          <img
+            src="img/img4.jpg"
+            alt="house design"
+            height="40%"
+            width="40%"
+            class="design-img4"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="background4">
+        <h1 class="contact-text">CONTACT</h1>
+        <div class="contact-flex">
+          <iframe
+            class="map"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2550.1613974251727!2d44.76111788771936!3d41.788725257778935!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40446de025b12a7f%3A0xf8224fd9dec8a865!2s15%20Giorgi%20Brtskinvale%20St%2C%20T&#39;bilisi!5e0!3m2!1sen!2sge!4v1675510745064!5m2!1sen!2sge"
+            width="1000"
+            height="400"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+
+          <address class="contact-details">
+            <p class="address">15 G.Brtskinvale St, Tbilisi, Georgia</p>
+            <a class="footer-link" href="tel:+995-591-78-33-11"
+              >+995-591-78-33-11</a
+            ><br />
+            <a class="footer-link" href="mailto:info@furnitureverse.com"
+              >mi.machitidze@gmail.com</a
+            >
+          </address>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
